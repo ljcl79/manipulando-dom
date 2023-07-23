@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#grid-container {
+    display: grid;
+    height: 100vh;
+    width: 100vh;
+}
+
+#navbar {
+    height: 10vh;
+    width: 100vw;
+    background-color: #3498db;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#navbar button {
+    height: 50%;
+    margin-right: 10vw;
+    padding: 0 1rem;
+}
+
+#main-container {
+    height: 90vh;
+    overflow-y: auto;
+}
